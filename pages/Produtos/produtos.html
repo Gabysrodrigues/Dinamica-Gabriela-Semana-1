@@ -3,23 +3,234 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../pages/Produtos/produtos.css" />
+
     <title>Produtos</title>
   </head>
   <body>
     <header>
-      <a href="../index.html">
-        <img
-          width="230"
-          height="37"
-          alt="ORRAM"
-          src="https://orram.com.br/wp-content/uploads/2021/09/logo-orram.svg"
-      /></a>
+      <img
+        src="https://orram.com.br/wp-content/uploads/2021/09/logo-orram.svg"
+        alt="Orram Logo"
+      />
       <nav>
-        <ul>
-          <li><a href="../index.html">Fundos</a></li>
-          <li><a href="../Formulario/formulario.html">Formulário</a></li>
-        </ul>
+        <a href="../../index.html">Fundos</a>
+        <a href="../formulario/formulario.html">Formulário</a>
       </nav>
     </header>
+
+    <main>
+      <section>
+        <div class="banner__hero">
+          <!-- Aqui eu coloco no css a imagem de fundo-->
+          <div class="banner__hero__logo">
+            <img
+              src="https://orram.com.br/wp-content/uploads/2022/02/ORRAM-SYMBOL.png"
+              alt="hero-logo"
+            />
+            <h1>Produtos</h1>
+          </div>
+        </div>
+      </section>
+      <section class="catalogo__produtos__container">
+        <div class="catalogo__produtos">
+          <!--Div Principal dos produtos-->
+          <!--Produto 1-->
+          <div class="produto__item">
+            <!--Imagem do Produto -->
+            <img
+              src="../../assets/images/Produtos/produto1.jpg"
+              alt="O Almanaque de Naval Ravikant"
+            />
+            <!--Titulo do produto -->
+            <h3 class="titulo__do__produto">
+              <!--Descricao do Produto Com link habilitado -->
+
+              <a href="paginadoproduto1" title="O Almanaque de Naval Ravikant">
+                O Almanaque de Naval Ravikant: Um Guia Para a Riqueza e a
+                Felicidade, de Jorgenson, Eric.
+              </a>
+            </h3>
+            <!--Avaliacao -->
+            <div class="avaliacao__do__produto">
+              <h4>4.8</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto">
+              <!--Preço do produto-->
+              <span>R$ 59,90</span> R$ 42,27
+            </div>
+            <!-- Frete Gratis em Verde-->
+            <p class="frete__do__produto">Frete Grátis</p>
+            <!-- Link Habilitado para Abrir detalhes do produto-->
+            <a class="detalhe__do__produto" href="paginadoproduto1"
+              >Ver Produto</a
+            >
+          </div>
+
+          <!--Produto 2-->
+          <div class="produto__item">
+            <img
+              src="../../assets/images/Produtos/produto2.jpg"
+              alt="Princípios, de Dalio"
+            />
+
+            <h3 class="titulo__do__produto">
+              <a href="paginadoproduto2" title="Princípios, de Dalio">
+                Princípios, de Dalio, Ray. Editora Intrínseca Ltda., capa dura,
+                edição capa dura em português, 2018
+              </a>
+            </h3>
+
+            <div class="avaliacao__do__produto">
+              <h4>4.9</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto">
+              <span>R$ 139,90</span> R$ 89,60
+            </div>
+
+            <p class="frete__do__produto">Frete Grátis</p>
+
+            <a class="detalhe__do__produto" href="paginadoproduto2"
+              >Ver Produto</a
+            >
+          </div>
+          <!--Produto 3-->
+          <div class="produto__item">
+            <img
+              src="../../assets/images/Produtos/produto3.jpg"
+              alt="Princípios, de Dalio"
+            />
+
+            <h3 class="titulo__do__produto">
+              <a href="paginadoproduto2" title="Princípios, de Dalio">
+                O Rei dos Dividendos, Luiz Barsi Filho, Editora Sextante.
+              </a>
+            </h3>
+
+            <div class="avaliacao__do__produto">
+              <h4>5.0</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto"><span>R$ 75,50</span> R$ 58,60</div>
+
+            <p class="frete__do__produto">Frete Grátis</p>
+
+            <a class="detalhe__do__produto" href="paginadoproduto2"
+              >Ver Produto</a
+            >
+          </div>
+          <!--Produto 4-->
+          <div class="produto__item">
+            <img
+              src="../../assets/images/Produtos/produto2.jpg"
+              alt="Princípios, de Dalio"
+            />
+
+            <h3 class="titulo__do__produto">
+              <a href="paginadoproduto2" title="Princípios, de Dalio">
+                Princípios, de Dalio, Ray. Editora Intrínseca Ltda., capa dura,
+                edição capa dura em português, 2018
+              </a>
+            </h3>
+
+            <div class="avaliacao__do__produto">
+              <h4>4.9</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto">
+              <span>R$ 139,90</span> R$ 89,60
+            </div>
+
+            <p class="frete__do__produto">Frete Grátis</p>
+
+            <a class="detalhe__do__produto" href="paginadoproduto2"
+              >Ver Produto</a
+            >
+          </div>
+          <div class="produto__item">
+            <img
+              src="../../assets/images/Produtos/produto3.jpg"
+              alt="Princípios, de Dalio"
+            />
+
+            <h3 class="titulo__do__produto">
+              <a href="paginadoproduto2" title="Princípios, de Dalio">
+                O Rei dos Dividendos, Luiz Barsi Filho, Editora Sextante.
+              </a>
+            </h3>
+
+            <div class="avaliacao__do__produto">
+              <h4>5.0</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto"><span>R$ 75,50</span> R$ 58,60</div>
+
+            <p class="frete__do__produto">Frete Grátis</p>
+
+            <a class="detalhe__do__produto" href="paginadoproduto2"
+              >Ver Produto</a
+            >
+          </div>
+          <div class="produto__item">
+            <img
+              src="../../assets/images/Produtos/produto3.jpg"
+              alt="Princípios, de Dalio"
+            />
+
+            <h3 class="titulo__do__produto">
+              <a href="paginadoproduto2" title="Princípios, de Dalio">
+                O Rei dos Dividendos, Luiz Barsi Filho, Editora Sextante.
+              </a>
+            </h3>
+
+            <div class="avaliacao__do__produto">
+              <h4>5.0</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="preco__do__produto"><span>R$ 75,50</span> R$ 58,60</div>
+
+            <p class="frete__do__produto">Frete Grátis</p>
+
+            <a class="detalhe__do__produto" href="paginadoproduto2"
+              >Ver Produto</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>&copy; 2025 Dinâmica Gabriela. Todos os direitos reservados.</p>
+    </footer>
   </body>
 </html>

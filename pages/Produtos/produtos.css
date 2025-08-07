@@ -1,0 +1,108 @@
+.catalogo__produtos__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.catalogo__produtos {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; /* No site dev - define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas*/
+}
+
+.produto__item {
+  width: calc(
+    33.333% - 20px
+  ); /*aqui ele vai fazer com que fique 3 itens por linha*/
+  padding: 16px;
+}
+
+.produto__item img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover; /*aqui ele vai preencher toda a caixa do conteudo*/
+  border-radius: 5px;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo__do__produto {
+  margin-bottom: 12px;
+}
+
+.titulo__do__produto a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.titulo__do__produto a:hover {
+  color: rgb(46, 147, 65);
+}
+
+.titulo__do__produto p {
+  margin: 0;
+}
+
+.avaliacao__do__produto {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+  margin-bottom: 8px;
+}
+
+.avaliacao__do__produto h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.fa-star.checked {
+  color: rgb(46, 147, 65);
+}
+
+.preco__do__produto {
+  margin-bottom: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.preco__do__produto span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 9px;
+  text-decoration: line-through;
+  color: #898484;
+}
+
+.frete__do__produto {
+  color: green;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium";
+  margin-bottom: 8px;
+}
+
+.detalhe__do__produto {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(129, 169, 137);
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid rgb(31, 80, 41);
+  padding: 12px;
+}
+
+.detalhe__do__produto:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}

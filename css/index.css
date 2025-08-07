@@ -1,0 +1,74 @@
+.container__pagina__fundos {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.subtitulo__fundos {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 20px; /* Aqui é o espaço interno*/
+  border-bottom: 5px solid rgb(46, 147, 65); /* Aqui eu decido a largura da borda e a cor da borda que fica em baixo do subtitulo*/
+  margin-bottom: 50px; /* Aqui é o tamanho do espaço entre o subtitulo e o espaco dos fundos*/
+}
+.bloco__dos__fundos {
+  margin-bottom: 35px; /* Aqui eu defino o espaço q quero entre os blocos*/
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 25px; /*Aqui eu defino o espaço do h3 para o bloco*/
+}
+
+.conteudo__bloco__fundos {
+  border: 1.5px solid rgb(46, 147, 65);
+  border-radius: 12px;
+  padding: 20px;
+  background-color: rgb(240, 241, 240);
+}
+
+.conteudo__bloco__fundos h4 {
+  font-size: 25px;
+  margin-bottom: 50px; /*Aqui eu defino o espaço que quero do h4 para o p*/
+}
+
+.conteudo__bloco__fundos p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px; /*aqui eu defino o espaço entre os 'p'*/
+}
+
+.botao__email {
+  text-decoration: none;
+  color: rgb(129, 169, 137);
+  font-weight: bold;
+}
+
+.botoes__bloco__fundos {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.botao {
+  gap: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  background-color: rgb(129, 169, 137);
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid rgb(31, 80, 41);
+  justify-content: center;
+  width: 200px;
+  padding: 8px;
+}
+
+.botao:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
