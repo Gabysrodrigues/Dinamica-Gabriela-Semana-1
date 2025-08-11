@@ -1,0 +1,122 @@
+.subtitulo__fundos {
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 5px solid rgb(46, 147, 65); /* Aqui eu decido a largura da borda e a cor da borda que fica em baixo do subtitulo*/
+  margin-bottom: 50px;
+  max-width: 1200px;
+  width: 80%;
+  margin: 30px auto 50px auto; /*Aqui ele vai ter espaço externo na parte supe e infe e auto é onde vai centralizar o elemento na horizontal*/
+}
+
+.container__formulario {
+  display: flex;
+  background-color: rgb(180, 180, 229);
+  justify-content: space-between; /* espaço entre os cards  de calc e form */
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto 4px auto; /* centraliza container na página com espaçamento vertical */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  min-height: 500px; /*Aqui é uma altura min para os cards*/
+}
+
+.lado__esquerdo {
+  flex: 2; /*Aqui eu decido exemplo, se quero 1 terço ou 2 terço do espaço*/
+  padding: 40px;
+  background-color: rgb(125, 181, 125);
+}
+
+/*Aqui é o container do lado direito*/
+.container__simulador {
+  flex: 1;
+  background-color: rgb(98, 192, 232);
+  border: 3px solid rgb(31, 80, 41);
+  padding: 40px;
+  justify-content: center;
+  color: black;
+}
+
+/* Aqui eu vou definir tudo sobre o formulario*/
+.formulario {
+  width: 100%; /*aQUI ELE vai pegar 100% do tamanho da div (container)*/
+}
+
+.formulario__grupo {
+  margin-bottom: 10px;
+}
+
+.formulario__label {
+  display: block;
+  margin-bottom: 9px; /*Aqui é a distancia da label para o placeholder*/
+  font-weight: bold;
+  color: rgb(4, 4, 4);
+  font-size: 17px;
+}
+
+.formulario__input {
+  width: 100%; /*aqui ele vai preencher o tamanho 100% do container*/
+  padding: 14px;
+  border: 1.5px solid rgb(46, 147, 65); /*Mesma q tem no index*/
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.formulario__botao {
+  margin-top: 15px;
+}
+
+.botao__submit {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(129, 169, 137);
+  border-radius: 5px;
+  border: 2px solid rgb(31, 80, 41);
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+}
+
+.botao__submit:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.menu__suspenso {
+  width: 50%;
+  padding: 14px;
+  border: 2px solid rgb(31, 80, 41);
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+.container__simulador h2 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+.container__simulador p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.container__simulador input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 5px;
+  border: 2px solid rgb(31, 80, 41);
+  margin-top: 10px;
+}
+
+.container__simulador label {
+  display: block;
+  font-size: 18px;
+}

@@ -21,7 +21,6 @@
     <main>
       <section>
         <div class="banner__hero">
-          <!-- Aqui eu coloco no css a imagem de fundo-->
           <div class="banner__hero__logo">
             <img
               src="https://orram.com.br/wp-content/uploads/2022/02/ORRAM-SYMBOL.png"
@@ -29,6 +28,107 @@
             />
             <h1>Formulário</h1>
           </div>
+        </div>
+      </section>
+
+      <h2 class="subtitulo__fundos">Cadastro de um novo Investidor Orram</h2>
+
+      <section class="container__formulario">
+        <div class="lado__esquerdo">
+          <!--Aqui e a classe q eu criei para separar os lados-->
+
+          <!--Lado esquerdo-->
+          <form class="formulario" action="#" method="post">
+            <div class="formulario__grupo">
+              <label for="razaosocial" class="formulario__label"
+                >Razão Social</label
+              >
+              <input
+                type="text"
+                name="razaosocial"
+                class="formulario__input"
+                placeholder="Razão Social"
+                required
+              />
+              <label for="cnpj" class="formulario__label" required>CNPJ</label>
+              <input
+                type="number"
+                id="cnpj"
+                class="formulario__input"
+                required
+              />
+              <label for="email" class="formulario__label" required
+                >E-mail</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="formulario__input"
+                required
+              />
+            </div>
+
+            <div class="formulario__grupo">
+              <label for="tipofundo" class="formulario__label"
+                >Tipo de Fundo</label
+              >
+              <select
+                id="tipofundo"
+                name="tipofundo"
+                class="menu__suspenso"
+                required
+              >
+                <option value="">Selecione o tipo de fundo</option>
+                <option value="ficfim">Fic Fim</option>
+                <option value="ficfidc">Fic Fidc</option>
+                <option value="firf">Firf</option>
+              </select>
+
+              <label for="patrimonio" class="formulario__label"
+                >Patrimônio</label
+              >
+              <input
+                type="number"
+                id="patrimonio"
+                class="formulario__input"
+                required
+              />
+            </div>
+
+            <div class="formulario__botao">
+              <input type="hidden" name="acao" value="enviar" />
+              <button type="submit" name="submit" class="botao__submit">
+                Cadastrar
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!--Lado Direito-->
+
+        <div class="container__simulador">
+          <h2>Simulador de Investimento</h2>
+
+          <form action="#" method="post">
+            <label for="valorinvestimento">Valor a Investir R$</label>
+            <input
+              type="number"
+              id="valorinvestimento"
+              name="valorinvestimento"
+            />
+
+            <p>*Taxa de Rendimento Anual: <b> 10% A.A </b></p>
+
+            <div class="formulario__botao">
+              <input type="hidden" name="acao" value="enviar" />
+              <button type="submit" name="submit" class="botao__submit">
+                Calcular
+              </button>
+            </div>
+          </form>
+
+          <label for="resultadoinvestimento">Resultado: </label>
+          <div class="resultadoinvestimento2">R$2.000,00</div>
         </div>
       </section>
     </main>

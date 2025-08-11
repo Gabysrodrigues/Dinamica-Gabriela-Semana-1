@@ -14,13 +14,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between; /*no site do Devmedia eu peguei - os elementos ficam separados, um fica na esquerda no final e outro na direita no final*/
-  align-items: center;
   padding: 20px;
   margin: 0 auto;
   max-width: 1200px;
@@ -35,7 +34,6 @@ nav {
 
 nav a {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
   margin-left: 40px;
@@ -44,7 +42,7 @@ nav a {
 
 .banner__hero {
   background-image: url("../assets/images/hero/background.jpg");
-  height: 300px;
+  height: 350px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +58,7 @@ nav a {
   transform: translate(-50%, -50%); /*aqui o banner fica centralizado*/
   color: white;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .rodape {
@@ -68,7 +66,6 @@ nav a {
   color: white;
   padding: 24px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   background-image: url("../assets/images/hero/footer-img.jpg");

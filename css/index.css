@@ -1,13 +1,13 @@
 .container__pagina__fundos {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 30px auto; /*Aqui ele vai ter espaço externo na parte supe e infe e auto é onde vai centralizar o elemento na horizontal*/
   padding: 20px;
 }
 
 .subtitulo__fundos {
   font-size: 23px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   padding-bottom: 20px; /* Aqui é o espaço interno*/
   border-bottom: 5px solid rgb(46, 147, 65); /* Aqui eu decido a largura da borda e a cor da borda que fica em baixo do subtitulo*/
   margin-bottom: 50px; /* Aqui é o tamanho do espaço entre o subtitulo e o espaco dos fundos*/
@@ -34,7 +34,6 @@ h3 {
 }
 
 .conteudo__bloco__fundos p {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin-bottom: 25px; /*aqui eu defino o espaço entre os 'p'*/
 }
@@ -52,17 +51,14 @@ h3 {
 }
 
 .botao {
-  gap: 16px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
   background-color: rgb(129, 169, 137);
   border-radius: 5px;
-  text-align: center;
   border: 2px solid rgb(31, 80, 41);
   justify-content: center;
   width: 200px;
