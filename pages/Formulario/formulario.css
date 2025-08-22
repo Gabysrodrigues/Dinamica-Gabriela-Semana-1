@@ -12,30 +12,30 @@
 
 .container__formulario {
   display: flex;
-  background-color: rgb(180, 180, 229);
   justify-content: space-between; /* espaço entre os cards  de calc e form */
   border-radius: 12px;
   overflow: hidden;
   max-width: 1200px;
   margin: 0 auto 4px auto; /* centraliza container na página com espaçamento vertical */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   min-height: 500px; /*Aqui é uma altura min para os cards*/
+  padding: 20px;
 }
 
 .lado__esquerdo {
   flex: 2; /*Aqui eu decido exemplo, se quero 1 terço ou 2 terço do espaço*/
   padding: 40px;
-  background-color: rgb(125, 181, 125);
+  background-color: rgb(196, 199, 196);
 }
 
 /*Aqui é o container do lado direito*/
 .container__simulador {
   flex: 1;
-  background-color: rgb(98, 192, 232);
+  background-color: rgb(198, 228, 243);
   border: 3px solid rgb(31, 80, 41);
   padding: 40px;
   justify-content: center;
   color: black;
+  border-radius: 5px;
 }
 
 /* Aqui eu vou definir tudo sobre o formulario*/
@@ -70,7 +70,7 @@
 
 .botao__submit {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   background-color: rgb(129, 169, 137);
@@ -88,7 +88,7 @@
 .menu__suspenso {
   width: 50%;
   padding: 14px;
-  border: 2px solid rgb(31, 80, 41);
+  border: 2px solid rgb(129, 169, 137);
   border-radius: 5px;
   font-size: 14px;
   margin-bottom: 9px;
@@ -98,7 +98,7 @@
   font-size: 25px;
   margin-bottom: 50px;
   text-align: center;
-  color: white;
+  color: rgb(13, 13, 13);
 }
 
 .container__simulador p {
@@ -119,4 +119,21 @@
 .container__simulador label {
   display: block;
   font-size: 18px;
+}
+
+.resultado__do__label {
+  color: rgb(16, 16, 16);
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.resultado__investimento {
+  background-color: #2f8b97;
+  margin-top: 12px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
 }
